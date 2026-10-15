@@ -209,3 +209,118 @@ Star the repo if you find it useful!
 Let's expand open workflow orchestration while recognizing the managed convenience that hosted Airflow, Prefect, Dagster, and Temporal clouds deliver.
 # Awesome-Web-Servers-Load-Balancers
 
+# Top Web Servers & Load Balancers Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on L4/L7 Load Balancing, Traffic Distribution, High Availability, Health Checks & Application Delivery*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS/cloud platforms** and **open-source projects** for **Web Servers & Load Balancers**. These systems distribute traffic across backends, perform health checks, terminate TLS, and keep applications available under load.
+
+**Examples** include AWS ELB, Google Cloud Load Balancing, Azure Load Balancer, F5 BIG-IP, HAProxy Enterprise, NGINX Plus, Citrix ADC, Kemp LoadMaster, A10 Networks, Radware Alteon, and **Nginx** (`nginx/nginx`)—a high-performance load balancer, web server, and reverse proxy.
+
+**Open-source emphasis**: Software load balancing is strongly open source. **Nginx**, **HAProxy**, **Envoy**, **Traefik**, **Caddy**, and **MetalLB** are production standards. This section is heavily expanded.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[AWS Elastic Load Balancing, Google Cloud Load Balancing, Azure Load Balancer](https://aws.amazon.com/elasticloadbalancing/)**  
+  Managed L4/L7 load balancers integrated with each major public cloud—autoscaling, health checks, and global anycast options.
+
+- **[F5 BIG-IP, Citrix ADC, A10, Radware Alteon, Kemp](https://www.f5.com/)**  
+  Enterprise application delivery controllers (ADCs)—hardware and virtual appliances with advanced traffic policies and security.
+
+- **[NGINX Plus, HAProxy Enterprise](https://www.nginx.com/)**  
+  Commercial editions of leading open proxies with extra modules, support, and enterprise features.
+
+- **[Other managed load-balancing services](https://cloud.google.com/load-balancing)**  
+  Additional cloud and CDN-adjacent traffic distribution products.
+
+## Open-Source GitHub Projects
+
+### Core Load Balancers & Proxies
+
+- **[Nginx](https://github.com/nginx/nginx)**  
+  High-performance open load balancer, web server, and reverse proxy—layer 7 routing, upstreams, and the most widely deployed software LB/proxy on the internet.
+
+- **[HAProxy](https://github.com/haproxy/haproxy)**  
+  Open high-performance TCP/HTTP load balancer—precise L4/L7 control, stick tables, and exceptional reliability under heavy load.
+
+- **[Envoy](https://github.com/envoyproxy/envoy)**  
+  Open cloud-native proxy and load balancer—advanced L7 filters, observability, and the data-plane engine for many service meshes and gateways.
+
+- **[Traefik](https://github.com/traefik/traefik)**  
+  Open dynamic reverse proxy and load balancer with automatic service discovery for Kubernetes, Docker, and cloud-native apps.
+
+- **[Caddy](https://github.com/caddyserver/caddy)**  
+  Open web server and reverse proxy with automatic HTTPS—capable load balancing and modern defaults for smaller and mid-size deployments.
+
+- **[SeeSaw](https://github.com/google/seesaw)**  
+  Open Linux Virtual Server (LVS)-based load balancing platform from Google—anycast-friendly L4 balancing.
+
+### Kubernetes & Cloud-Native Balancing
+
+- **[MetalLB](https://github.com/metallb/metallb)**  
+  Open load balancer for bare-metal Kubernetes clusters—BGP and L2 modes to expose services without a cloud LB.
+
+- **[Kube-VIP](https://github.com/kube-vip/kube-vip)**  
+  Open Kubernetes virtual IP and load-balancer solution for control plane and service HA on bare metal.
+
+- **[Contour](https://github.com/projectcontour/contour)**  
+  Open Kubernetes ingress controller built on Envoy—HTTP routing and load balancing as cluster ingress.
+
+- **[Istio / service-mesh LBs](https://github.com/istio/istio)**  
+  Open service mesh patterns that embed Envoy for sophisticated L7 traffic shifting and balancing.
+
+### Additional Open Options
+
+- **[Varnish](https://github.com/varnishcache/varnish-cache)**  
+  Open HTTP accelerator often placed in front of origins—caching plus director-based backend selection.
+
+- **[OpenResty](https://github.com/openresty/openresty)**  
+  Nginx + LuaJIT for programmable load-balancing and gateway logic.
+
+- **[Gobetween](https://github.com/yyyar/gobetween)**  
+  Open modern L4 load balancer written in Go—simple and cloud-friendly.
+
+- **[FATload / community LVS tools](https://github.com/search?q=LVS+load+balancer)**  
+  Linux Virtual Server and related open L4 balancing stacks.
+
+### Additional Strong Open-Source Options
+
+- **General L7 software LB**: Nginx or HAProxy.
+- **Cloud-native / K8s**: Traefik, Envoy, Contour, MetalLB.
+- **Mesh-aware**: Envoy via Istio or standalone.
+- **Composable stacks**: Cloud LB (ELB/GCLB) → Nginx/HAProxy/Envoy on nodes → apps; or pure open MetalLB + Ingress on bare metal.
+- Hardware/commercial ADCs still lead for specialized ASICs, ultra-deep packet inspection, and vendor-supported compliance packages.
+
+**Frameworks for building custom systems**:  
+**Nginx** or **HAProxy** for classic software load balancing; **Envoy** / **Traefik** for dynamic cloud-native routing; **MetalLB** for bare-metal Kubernetes; cloud provider LBs when you want managed L4/L7 in public cloud.  
+Fully open load-balancing stacks are production-proven at every scale.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Load balancers sit on the critical path. Misconfiguration can black-hole traffic or expose internal services. Use health checks, connection draining, and least-privilege admin access. Keep TLS and cipher configuration current.
+- Open-source load balancers offer transparency and cost control. Managed cloud LBs and commercial ADCs shift capacity planning and support to the vendor. Neither replaces capacity testing and failure-mode design.
+
+---
+
+**Made for network engineers, SREs, and platform teams who keep traffic flowing.**  
+Let's expand open load balancing while recognizing the global managed capacity that cloud and commercial ADC platforms deliver.
