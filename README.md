@@ -64,11 +64,11 @@ The following table benchmarks notable enterprise SaaS and managed cloud load-ba
 
 ## 💻 Open-Source Web Servers & Load Balancers
 
-Open-source technologies form the operational backbone of global web infrastructure. The repositories below are **ranked in descending order of current GitHub stars** with social star badges linking directly to each project's stargazers community.
+Open-source technologies form the operational backbone of global web infrastructure. The repositories below are **ranked in descending order of current GitHub_Stars** with social Stars_Badges linking directly to each project's stargazers community.
 
 ---
 
-### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
+### 1. [Caddy](https://github.com/caddyserver/caddy) [![GitHub_Stars](https://img.shields.io/github/stars/caddyserver/caddy?style=social&color=white)](https://github.com/caddyserver/caddy/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Layer 7 Web Server, Reverse Proxy & Load Balancer
 - **Key Features**: Automatic HTTPS via Let's Encrypt / ZeroSSL by default, HTTP/1.1, HTTP/2, and HTTP/3 QUIC support, modular Go architecture, dynamic JSON configuration API, and active health checks.
@@ -76,7 +76,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
+### 2. [Traefik](https://github.com/traefik/traefik) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Layer 7 Cloud-Native Reverse Proxy & Ingress Controller
 - **Key Features**: Auto-discovery of backends from Kubernetes, Docker, Swarm, Consul, and Nomad, automatic Let's Encrypt certificates, real-time dashboard, circuit breakers, rate limiting, and canary deployments.
@@ -84,7 +84,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 3. [Kong Gateway](https://github.com/Kong/kong) [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
+### 3. [Kong Gateway](https://github.com/Kong/kong) [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)
 - **Primary Language**: Lua / C (built on OpenResty/NGINX)
 - **Layer & Type**: Layer 7 Cloud-Native API Gateway & Load Balancer
 - **Key Features**: Plugin-oriented architecture (OAuth2, rate limiting, logging, caching), gRPC proxying, declarative configuration (decK), sub-millisecond core latency, and enterprise clustering.
@@ -92,7 +92,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 4. [Istio](https://github.com/istio/istio) [![GitHub stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
+### 4. [Istio](https://github.com/istio/istio) [![GitHub_Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers)
 - **Primary Language**: Go / C++ (built on Envoy Proxy)
 - **Layer & Type**: Layer 4 & Layer 7 Service Mesh & Ingress Gateway
 - **Key Features**: Advanced traffic shifting, canary rollouts, fault injection, mutual TLS (mTLS) enforcement, rich telemetry with OpenTelemetry/Prometheus, and declarative Kubernetes CRD APIs.
@@ -100,7 +100,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 5. [NGINX](https://github.com/nginx/nginx) [![GitHub stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
+### 5. [NGINX](https://github.com/nginx/nginx) [![GitHub_Stars](https://img.shields.io/github/stars/nginx/nginx?style=social&color=white)](https://github.com/nginx/nginx/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: Layer 4 & Layer 7 Web Server, Reverse Proxy & Load Balancer
 - **Key Features**: Asynchronous event-driven architecture, handles 100,000+ concurrent connections with minimal RAM, upstream round-robin/least-conn/ip-hash load balancing, fast static file serving, and SSL/TLS offloading.
@@ -108,7 +108,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 6. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
+### 6. [Envoy Proxy](https://github.com/envoyproxy/envoy) [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/envoy?style=social&color=white)](https://github.com/envoyproxy/envoy/stargazers)
 - **Primary Language**: C++
 - **Layer & Type**: Layer 4 & Layer 7 Cloud-Native Edge and Service Proxy
 - **Key Features**: Dynamic configuration via Discovery APIs (xDS), advanced load-balancing algorithms (zone-aware, least-request, ring hash, Maglev), circuit breakers, first-class gRPC/HTTP3 support, and deep observability.
@@ -116,7 +116,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 7. [Pingora](https://github.com/cloudflare/pingora) [![GitHub stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)
+### 7. [Pingora](https://github.com/cloudflare/pingora) [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/pingora?style=social&color=white)](https://github.com/cloudflare/pingora/stargazers)
 - **Primary Language**: Rust
 - **Layer & Type**: Layer 4 & Layer 7 Async Network Proxy Framework
 - **Key Features**: Created by Cloudflare to replace NGINX at planetary scale; memory-safe async architecture built on Tokio, zero CPU thread contention, custom load-balancing logic, HTTP/1 and HTTP/2 proxying, and OpenSSL/BoringSSL integration.
@@ -124,7 +124,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 8. [Kubernetes Ingress-NGINX](https://github.com/kubernetes/ingress-nginx) [![GitHub stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers)
+### 8. [Kubernetes Ingress-NGINX](https://github.com/kubernetes/ingress-nginx) [![GitHub_Stars](https://img.shields.io/github/stars/kubernetes/ingress-nginx?style=social&color=white)](https://github.com/kubernetes/ingress-nginx/stargazers)
 - **Primary Language**: Go / Lua
 - **Layer & Type**: Kubernetes Layer 7 Ingress Controller
 - **Key Features**: The reference Ingress Controller for Kubernetes powered by NGINX; annotation-based route configuration, cert-manager integration, Lua plugins, URL rewrites, and SSL termination.
@@ -132,7 +132,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 9. [Apache APISIX](https://github.com/apache/apisix) [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
+### 9. [Apache APISIX](https://github.com/apache/apisix) [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)
 - **Primary Language**: Lua / C
 - **Layer & Type**: Layer 7 Cloud-Native Dynamic API Gateway & Reverse Proxy
 - **Key Features**: Ultra-fast routing using radixtree, dynamic configuration reloading without restarts via etcd, multi-protocol support (HTTP, gRPC, Dubbo, MQTT), canary releases, and 80+ out-of-the-box plugins.
@@ -140,7 +140,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 10. [OpenResty](https://github.com/openresty/openresty) [![GitHub stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers)
+### 10. [OpenResty](https://github.com/openresty/openresty) [![GitHub_Stars](https://img.shields.io/github/stars/openresty/openresty?style=social&color=white)](https://github.com/openresty/openresty/stargazers)
 - **Primary Language**: C / Lua
 - **Layer & Type**: Programmable Web Platform & Reverse Proxy
 - **Key Features**: Bundles standard NGINX core with LuaJIT, allowing developers to write ultra-fast, non-blocking Lua scripts directly inside the NGINX event loop for customized balancing, authentication, and routing.
@@ -148,7 +148,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 11. [Tengine](https://github.com/alibaba/tengine) [![GitHub stars](https://img.shields.io/github/stars/alibaba/tengine?style=social&color=white)](https://github.com/alibaba/tengine/stargazers)
+### 11. [Tengine](https://github.com/alibaba/tengine) [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/tengine?style=social&color=white)](https://github.com/alibaba/tengine/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: Web Server & Load Balancer (Alibaba fork of NGINX)
 - **Key Features**: Enhanced upstream health checks, dynamic module loading (DSO), active backend monitoring, advanced rate-limiting mechanisms, and optimizations tested under massive Singles' Day e-commerce traffic.
@@ -156,7 +156,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 12. [H2O](https://github.com/h2o/h2o) [![GitHub stars](https://img.shields.io/github/stars/h2o/h2o?style=social&color=white)](https://github.com/h2o/h2o/stargazers)
+### 12. [H2O](https://github.com/h2o/h2o) [![GitHub_Stars](https://img.shields.io/github/stars/h2o/h2o?style=social&color=white)](https://github.com/h2o/h2o/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: Optimized HTTP/1, HTTP/2, HTTP/3 Web Server & Proxy
 - **Key Features**: Exceptionally fast HTTP/2 priority scheduling, WebSocket proxying, early hints (RFC 8297), mruby configuration scripting, and TLS 1.3 / QUIC optimizations.
@@ -164,7 +164,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 13. [MetalLB](https://github.com/metallb/metallb) [![GitHub stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)
+### 13. [MetalLB](https://github.com/metallb/metallb) [![GitHub_Stars](https://img.shields.io/github/stars/metallb/metallb?style=social&color=white)](https://github.com/metallb/metallb/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Bare-Metal Kubernetes Layer 4 Load Balancer
 - **Key Features**: Provides Kubernetes `Type=LoadBalancer` support on bare metal where cloud providers are absent; supports Layer 2 mode (ARP/NDP) and BGP routing mode with true multi-hop failover.
@@ -172,7 +172,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 14. [Fabio](https://github.com/fabiolb/fabio) [![GitHub stars](https://img.shields.io/github/stars/fabiolb/fabio?style=social&color=white)](https://github.com/fabiolb/fabio/stargazers)
+### 14. [Fabio](https://github.com/fabiolb/fabio) [![GitHub_Stars](https://img.shields.io/github/stars/fabiolb/fabio?style=social&color=white)](https://github.com/fabiolb/fabio/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Zero-Conf HTTP(S) & TCP Router / Load Balancer
 - **Key Features**: Integrates seamlessly with HashiCorp Consul; automatically creates routing tables from Consul service tags without configuration files or reload interruptions.
@@ -180,7 +180,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 15. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
+### 15. [HAProxy](https://github.com/haproxy/haproxy) [![GitHub_Stars](https://img.shields.io/github/stars/haproxy/haproxy?style=social&color=white)](https://github.com/haproxy/haproxy/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: Layer 4 & Layer 7 High-Availability Load Balancer & Proxy
 - **Key Features**: Legendary stability, deterministic resource utilization, Stick Tables for stateful session persistence and DDoS protection, advanced health checking, SPOE engine, and sub-millisecond request processing.
@@ -188,7 +188,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 16. [BFE (Baidu Front End)](https://github.com/bfenetworks/bfe) [![GitHub stars](https://img.shields.io/github/stars/bfenetworks/bfe?style=social&color=white)](https://github.com/bfenetworks/bfe/stargazers)
+### 16. [BFE (Baidu Front End)](https://github.com/bfenetworks/bfe) [![GitHub_Stars](https://img.shields.io/github/stars/bfenetworks/bfe?style=social&color=white)](https://github.com/bfenetworks/bfe/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Layer 7 Modern Traffic Routing Engine
 - **Key Features**: Open-sourced by Baidu; handles over 1 trillion requests daily; advanced condition-based routing expressions, pluggable architecture, multi-tenant separation, and TLS offloading.
@@ -196,7 +196,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 17. [Seesaw](https://github.com/google/seesaw) [![GitHub stars](https://img.shields.io/github/stars/google/seesaw?style=social&color=white)](https://github.com/google/seesaw/stargazers)
+### 17. [Seesaw](https://github.com/google/seesaw) [![GitHub_Stars](https://img.shields.io/github/stars/google/seesaw?style=social&color=white)](https://github.com/google/seesaw/stargazers)
 - **Primary Language**: Go / C
 - **Layer & Type**: Layer 4 Linux Virtual Server (LVS) Load Balancer
 - **Key Features**: Developed by Google for corporate infrastructure; supports Direct Routing (DR), DSR (Direct Server Return), Anycast VIPs, and active node synchronization.
@@ -204,7 +204,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 18. [Katran](https://github.com/facebookincubator/katran) [![GitHub stars](https://img.shields.io/github/stars/facebookincubator/katran?style=social&color=white)](https://github.com/facebookincubator/katran/stargazers)
+### 18. [Katran](https://github.com/facebookincubator/katran) [![GitHub_Stars](https://img.shields.io/github/stars/facebookincubator/katran?style=social&color=white)](https://github.com/facebookincubator/katran/stargazers)
 - **Primary Language**: C++ / eBPF
 - **Layer & Type**: Layer 4 Ultra-Fast eBPF/XDP Load Balancer
 - **Key Features**: Powers Meta's (Facebook) global infrastructure; leverages Linux kernel eBPF and XDP (eXpress Data Path) to forward packets directly at network card wire speeds, Maglev consistent hashing, and linear multi-core scaling.
@@ -212,7 +212,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 19. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
+### 19. [Varnish Cache](https://github.com/varnishcache/varnish-cache) [![GitHub_Stars](https://img.shields.io/github/stars/varnishcache/varnish-cache?style=social&color=white)](https://github.com/varnishcache/varnish-cache/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: HTTP Reverse Proxy, Accelerator & Director Load Balancer
 - **Key Features**: High-performance HTTP caching, Varnish Configuration Language (VCL) compiled directly into C machine code, dynamic backend directors for load balancing, and Edge Side Includes (ESI).
@@ -220,7 +220,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 20. [Apache HTTP Server (httpd)](https://github.com/apache/httpd) [![GitHub stars](https://img.shields.io/github/stars/apache/httpd?style=social&color=white)](https://github.com/apache/httpd/stargazers)
+### 20. [Apache HTTP Server (httpd)](https://github.com/apache/httpd) [![GitHub_Stars](https://img.shields.io/github/stars/apache/httpd?style=social&color=white)](https://github.com/apache/httpd/stargazers)
 - **Primary Language**: C
 - **Layer & Type**: Classic Web Server & Reverse Proxy (`mod_proxy`, `mod_proxy_balancer`)
 - **Key Features**: The foundational web server of the internet; modular MPM (event, worker, prefork) architecture, `.htaccess` distributed configurations, robust SSL/TLS support, and flexible proxy balancing methods.
@@ -228,7 +228,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 21. [Contour](https://github.com/projectcontour/contour) [![GitHub stars](https://img.shields.io/github/stars/projectcontour/contour?style=social&color=white)](https://github.com/projectcontour/contour/stargazers)
+### 21. [Contour](https://github.com/projectcontour/contour) [![GitHub_Stars](https://img.shields.io/github/stars/projectcontour/contour?style=social&color=white)](https://github.com/projectcontour/contour/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Kubernetes Ingress Controller powered by Envoy Proxy
 - **Key Features**: CNCF graduating project; introduces `HTTPProxy` CRD for multi-team delegation of routing rules, dynamic Envoy configuration updates without connection dropping, and TLS wildcard support.
@@ -236,7 +236,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 22. [Kube-VIP](https://github.com/kube-vip/kube-vip) [![GitHub stars](https://img.shields.io/github/stars/kube-vip/kube-vip?style=social&color=white)](https://github.com/kube-vip/kube-vip/stargazers)
+### 22. [Kube-VIP](https://github.com/kube-vip/kube-vip) [![GitHub_Stars](https://img.shields.io/github/stars/kube-vip/kube-vip?style=social&color=white)](https://github.com/kube-vip/kube-vip/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Kubernetes Virtual IP & Layer 4 Service Load Balancer
 - **Key Features**: Provides Virtual IP management and L4 load balancing for both the Kubernetes control plane (API server HA) and `Type=LoadBalancer` user workloads via ARP/BGP.
@@ -244,7 +244,7 @@ Open-source technologies form the operational backbone of global web infrastruct
 
 ---
 
-### 23. [Gobetween](https://github.com/yyyar/gobetween) [![GitHub stars](https://img.shields.io/github/stars/yyyar/gobetween?style=social&color=white)](https://github.com/yyyar/gobetween/stargazers)
+### 23. [Gobetween](https://github.com/yyyar/gobetween) [![GitHub_Stars](https://img.shields.io/github/stars/yyyar/gobetween?style=social&color=white)](https://github.com/yyyar/gobetween/stargazers)
 - **Primary Language**: Go
 - **Layer & Type**: Modern Minimalist L4 TCP/UDP/TLS Load Balancer
 - **Key Features**: Lightweight single binary, dynamic backend discovery (Docker, Consul, SRV records, JSON), multiple balancing algorithms (round-robin, least-conn, weight, ip-hash), and REST management API.
